@@ -310,10 +310,10 @@ int main()
             case 3:
             cout << "Exiting application, thank you and have a nice day" << endl;
             exit(1);
-        }
+        } //end of the switch statement
         customerOrder.close();
      
-    }
+    } //end of if statement
     else cout << "Unable to open file" << endl;
     
     return 0;
